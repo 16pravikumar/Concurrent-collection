@@ -6,9 +6,13 @@ public class Main{
     list.add("Red");
      list.add("White");
     System.out.println(list);
+    for(String a:list)
+    System.out.println(a);
   }
 }
 
 /*OutPut
   [Red, White]
+  Red
+White
 */
